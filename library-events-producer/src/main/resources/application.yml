@@ -27,7 +27,7 @@ spring:
       on-profile: nonprod
   kafka:
     template:
-      default-topic: library-events
+      default-topic:
     producer:
       bootstrap-servers: localhost:9095,localhost:9096,localhost:9097
       key-serializer: org.apache.kafka.common.serialization.IntegerSerializer
